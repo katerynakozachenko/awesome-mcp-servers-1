@@ -1587,6 +1587,39 @@
     "official": true
   },
   {
+    "name": "Bruin MCP",
+    "url": "https://getbruin.com/docs/bruin/getting-started/bruin-mcp.html",
+    "description": "Local MCP server in the open-source Bruin CLI that lets agents query databases, ingest data, compare tables, and build SQL and Python data pipelines.",
+    "category": "data-analytics-and-bi",
+    "language": "Go",
+    "provider": "Bruin",
+    "tags": [
+      "data-pipelines",
+      "etl",
+      "sql",
+      "data-quality"
+    ],
+    "official": true
+  },
+  {
+    "name": "Bruin Cloud MCP",
+    "url": "https://getbruin.com/docs/bruin/cloud/mcp-setup.html",
+    "description": "Hosted MCP server for Bruin Cloud to list data pipelines, inspect runs, and trigger actions from Claude, Cursor, Claude Code, or Codex via OAuth or an access token.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "Bruin",
+    "tags": [
+      "data-pipelines",
+      "orchestration",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://cloud.getbruin.com/mcp"
+    }
+  },
+  {
     "name": "Tanod",
     "url": "https://tanod.dev",
     "description": "Solidity contract scans, pre-transaction address risk checks, OFAC SDN address screening and MCP server/skill package scans for agents, plus web, DNS and chain reads. Free daily tier, then pay per call via x402 (USDC on Base).",
